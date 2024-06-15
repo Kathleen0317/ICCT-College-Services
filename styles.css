@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #004d40; /* Dark teal text color for contrast */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    padding: 80px; /* Increased padding for a more spacious feel */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+    border: 2px solid #00838f; /* Teal border */
+}
+
+h1 {
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    font-size: 32px; /* Larger font size for the heading */
+    color: #006064; /* Dark cyan color */
+}
+
+.service-btn {
+    margin: 15px; /* Increased margin for better spacing */
+    padding: 20px 40px; /* Larger padding for bigger buttons */
+    min-height: 80px; /* Minimum height for the buttons */
+    font-size: 24px; /* Larger font size */
+    cursor: pointer;
+    background-color: #00acc1; /* Light blue button color */
+    border: none;
+    border-radius: 4px;
+    color: #ffffff; /* White text color */
+    transition: background-color 0.3s ease;
+}
+
+.service-btn:hover {
+    background-color: #007c91; /* Darker blue on hover */
+}
+
+#output {
+    margin-top: 30px; /* Increased margin for better spacing */
+}
+
+#queueNumber {
+    font-size: 28px; /* Larger font size */
+    font-weight: bold;
+    color: #004d40; /* Dark teal color */
+}
+
+#dateTimeDisplay {
+    font-size: 20px; /* Font size for date and time */
+    color: #004d40; /* Dark teal color */
+    margin-top: 10px; /* Margin above the date and time */
+}
+
+#queueDisplay {
+    margin-top: 10px; /* Adjust spacing between queue display and buttons */
+    padding: 10px;
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#queueNumber {
+    font-size: 32px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: #004d40; /* Dark teal color */
+    margin: 10px 0; /* Margin for spacing */
+}
